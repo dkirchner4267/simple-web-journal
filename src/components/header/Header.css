@@ -1,0 +1,27 @@
+.header-main {
+    background-color: #1F2933;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-image {
+    height: 60px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.links-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    color: white;
+    margin-right: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
