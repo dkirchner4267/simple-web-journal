@@ -3,6 +3,8 @@ import './main-page.css';
 import Header from '../../components/header/Header';
 import SearchIcon from '../../assets/Search-Icon.png';
 import GenericButton from '../../components/GenericButton/GenericButton';
+import { fakeData } from '../../fake-data';
+import EntrySummaries from '../../components/EntrySummaries/EntrySummaries';
 
 const MainPage = () => {
     return (
@@ -18,7 +20,10 @@ const MainPage = () => {
                     <GenericButton title="Filter" onClickFunction={() => console.log("filter clicked")} />
                 </div>
                 <div className='entries-div'>
-                    <p className='no-entries-text'>No entries yet! Start a <span className='new-entry-text'>New Entry</span> to begin.</p>
+                    { fakeData.length === 0 ? 
+                        <p className='no-entries-text'>No entries yet! Start a <span className='new-entry-text'>New Entry</span> to begin.</p>
+                    : <EntrySummaries data={fakeData} />
+                    }
                 </div>
             </div>
         </div>

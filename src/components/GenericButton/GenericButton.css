@@ -8,9 +8,13 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 3px;
     box-shadow: 2px 2px 5px #616e7c inset;
     font-family: 'Roboto Mono', monospace;
     cursor: pointer;
+}
+
+.generic-button:hover {
+    background-color: #7ABEA4;
 }

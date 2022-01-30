@@ -1,0 +1,33 @@
+.entry-summary-main-div {
+    background-color: #1F2933;
+    padding: 1px 25px;
+    width: 50%;
+    margin: 5px auto;
+    text-align: left;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entry-summary-inner-div {
+    width: 95%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.entry-summary-title {
+    color: #F5F7FA;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.entry-summary-main-div:hover {
+    background-color: #52606d;
+}
+
+.ellipses-icon {
+    height: 25px;
+    cursor: pointer;
+    padding: 5px;
+}
