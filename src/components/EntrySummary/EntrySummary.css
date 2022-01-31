@@ -31,3 +31,18 @@
     cursor: pointer;
     padding: 5px;
 }
+
+.entry-detail-main-div {
+    background-color: #3e4c59;
+    width: 50%;
+    text-align: left;
+    border-radius: 15px;
+    margin: 5px auto;
+}
+
+.entry-text {
+    color: #F5F7FA;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 2px 25px;
+}
