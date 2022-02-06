@@ -12,7 +12,7 @@ const EntrySummary = ({title, date, content}) => {
 
     return (
         <div className='full-entry-wrapper'>
-            <div className='entry-summary-main-div' >
+            <div className={open ? 'entry-summary-main-div-expanded' : 'entry-summary-main-div'} >
                 <div className='entry-summary-inner-div' onClick={e => toggleEntry(e)}>
                     <h2 className='entry-summary-title'>{title}</h2>
                 </div>
@@ -22,6 +22,7 @@ const EntrySummary = ({title, date, content}) => {
             </div>
             { open ? 
             <div className='entry-detail-main-div'>
+                <hr className='line-break'/>
                 <div className='entry-text'>
                     {content}
                 </div>

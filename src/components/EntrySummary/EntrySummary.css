@@ -10,6 +10,18 @@
     align-items: center;
 }
 
+.entry-summary-main-div-expanded {
+    background-color: #1F2933;
+    padding: 1px 25px;
+    width: 50%;
+    text-align: left;
+    margin: 0px auto;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .entry-summary-inner-div {
     width: 95%;
     text-align: center;
@@ -29,20 +41,28 @@
 .ellipses-icon {
     height: 25px;
     cursor: pointer;
-    padding: 5px;
+    padding: 3px;
+}
+
+.line-break {
+    border-color: #616e7c;
+    border-width: 2px;
+    width: 90%;
 }
 
 .entry-detail-main-div {
-    background-color: #3e4c59;
     width: 50%;
     text-align: left;
-    border-radius: 15px;
-    margin: 5px auto;
+    border-radius: 0px 0px 15px 15px;
+    margin: 0px auto 5px auto;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #1F2933;
+    padding: 5px 25px 15px 25px;
 }
+
 
 .entry-text {
     color: #F5F7FA;
     font-size: 15px;
-    font-family: 'Nunito Sans', sans-serif;
-    padding: 2px 25px;
+    padding: 10px 0px;
 }
